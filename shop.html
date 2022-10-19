@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0" />
+    <title>Millennium Fashion Group</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/034d12a099.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logosize.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                  <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Eshop</h1>
+    </section>
+
+
+
+
+<!-----Footer------>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Millenium Fashion Group Store lanched in Athens,Hlioupoli in 1997.
+        Since then we provide the best Products and service's for our clients for 25 years.<br />
+        So its time to provide Our products and expierience all over Greece.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            
+        </div>
+        <p> Website Creator <br /> Dimitris Loukopoulos
+    </section>
+
+
+
+
+
+
+
+
+
+<!------ javascript for toggle menu----->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showmenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hidemenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
